@@ -1,3 +1,24 @@
+// let a = prompt("dollar kiriting");
+// let dollar = 12400
+// let jami = a * dollar
+// alert(jami)
+
+// let a = prompt("ismiznggizni kiriting")
+// let b = prompt("familiyanggizni kiriting")
+// alert(a + b)
+
+// let yosh = prompt("yoshnggizni kiriitng")
+//
+// let kun = yosh * 365
+// let soat = kun * 24
+// let daqiqa = soat * 60
+// alert("kun: " + kun + "soat:" + soat + "daqiqa: " + daqiqa )
+
+// let year = 2025
+// let yosh = prompt("yoshinggizni kiriting")
+// let c = year - yosh
+// alert(c)
+
 // let a = prompt("yoshinggizni kiriting")
 //
 // if (a >= 18) {
@@ -61,4 +82,3 @@
 // } else {
 //     alert("Sovuq, qalin kiying!");
 // }
-
