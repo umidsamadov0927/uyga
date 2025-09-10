@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef9f7001-b139-4c0d-8d75-b14d0a32e6a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend_02/img/heraderLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_02/img/main_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_02/img/main_img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_02/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_02/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frontend2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/fivePhoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/fourPhoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/header_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/main2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/noneImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/onePhoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/six.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/threePhoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/true.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/img/twoPhoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -48,7 +56,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/acer/WebstormProjects/frontend2/frontend_02/img&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/acer/WebstormProjects/frontend2/homeWork/img&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -59,6 +68,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\acer\WebstormProjects\frontend2\homeWork\img" />
       <recent name="C:\Users\acer\WebstormProjects\frontend2\frontend_02\img" />
     </key>
   </component>
@@ -81,6 +91,12 @@
       <workItem from="1756115114939" duration="6486000" />
       <workItem from="1756205248693" duration="4051000" />
       <workItem from="1756264717705" duration="2247000" />
+      <workItem from="1756905989873" duration="324000" />
+      <workItem from="1757061485807" duration="1770000" />
+      <workItem from="1757070687850" duration="562000" />
+      <workItem from="1757332989447" duration="974000" />
+      <workItem from="1757491655927" duration="3090000" />
+      <workItem from="1757499743658" duration="662000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,12 @@
+.header-none{
+    display: none;
+}
+
+@media only screen and  (max-width: 900px) {
+    .header_res{
+        display: none;
+    }
+    .header-none{
+        display: block;
+    }
+}

@@ -1,10 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./main.css">
 </head>
-<body>
-$END$
+<body class="m-0 p-0 box-border">
+<header>
+    <div class="max-w-[1200px] mx-auto px-4">
+        <div class="flex justify-between items-center mt-5">
+            <div class="flex items-center gap-6">
+                <img src="./img/header_img.png" alt="h">
+                <p class="text-sm font-medium tracking-wide">Bizneslar uchun</p>
+            </div>
+            <div class="header_res">
+                <div class="flex gap-9">
+                    <div class="relative flex items-center bg-[#f2f4f6] rounded-md px-4 py-2 max-w-[150px]">
+                        <img src="./img/search.svg" alt="Search" class="absolute left-4 max-w-[18px] h-[18px]">
+                        <input type="text" placeholder="Search"
+                               class="border-0 bg-transparent outline-none pl-8 text-sm font-normal text-[#638087] w-full">
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="text-sm font-bold bg-[#1ab2e5] px-4 py-2 rounded-xl border-0">Boshlash</button>
+                        <button class="text-sm font-bold bg-[#f0f2f5] px-4 py-2 rounded-xl border-0">Kirish</button>
+                    </div>
+                </div>
+            </div>
+            <div class="header-none">
+                <img class="hidden" src="./img/noneImg.jpg" alt="none">
+            </div>
+        </div>
+        <hr class="bg-gray-400 w-full mt-4">
+    </div>
+</header>
+
+<main>
+    <section class="mt-9">
+        <div class="w-[900px] mx-auto">
+            <div class="bg-[url('./img/main2.png')] bg-cover bg-center rounded-xl p-10 text-center text-white">
+                <h1 class="text-[40px] font-black mb-2 w-[980px] ml-[-90px] mt-12">Deyarli har qanday narsa uchun mahalliy xizmatlarni toping</h1>
+                <p class="text-sm font-normal ml-12 text-white w-[700px]">Uy ta’mirlashdan tortib shaxsiy parvarishgacha bo‘lgan keng ko‘lamli xizmatlarni bir joyda o‘rganing. Ishonchli mutaxassislar bilan bog‘laning va sizga kerak bo‘lgan yordamni o‘z mahallangizda oling.</p>
+                <div class="flex justify-center items-center bg-white rounded-xl p-1 w-[350px] mb-4 mx-auto mt-10">
+                    <img src="./img/search.svg" alt="search" class="w-[18px] h-[18px] ml-2">
+                    <input type="text" placeholder="Xizmatlarni qidiring"
+                           class="flex-1 border-0 px-3 py-2 rounded-xl outline-none text-sm text-[#638087]">
+                    <button class="bg-[#009dff] text-white px-4 py-2 rounded-xl text-sm ">Qidirish</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-9">
+        <div class="w-[900px] mx-auto">
+            <div>
+                <p class="text-[22px] font-bold">Mashhur xizmatlarni ko'rib chiqing</p>
+            </div>
+            <div class="mt-7">
+                <div class="grid grid-cols-5 text-center">
+                    <div>
+                        <img class="mt-7" src="./img/onePhoto.png" alt="one">
+                        <p class="text-base font-medium mt-3 text-[#121717]">Uy xizmatlari</p>
+                    </div>
+                    <div>
+                        <img class="mt-7" src="./img/twoPhoto.png" alt="two">
+                        <p class="text-base font-medium mt-3 text-[#121717]">Transport</p>
+                    </div>
+                    <div>
+                        <img class="mt-7" src="./img/threePhoto.png" alt="three">
+                        <p class="text-base font-medium mt-3 text-[#121717]">Ta'lim</p>
+                    </div>
+                    <div>
+                        <img class="mt-7" src="./img/fourPhoto.png" alt="four">
+                        <p class="text-base font-medium mt-3 text-[#121717]">Shaxsiy parvarish</p>
+                    </div>
+                    <div>
+                        <img class="mt-7" src="./img/fivePhoto.png" alt="five">
+                        <p class="text-base font-medium mt-3 text-[#121717]">Tadbirlar</p>
+                    </div>
+                    <div>
+                        <img class="mt-7" src="./img/six.png" alt="sixPhoto">
+                        <p class="text-base font-medium mt-3 text-[#121717]">Boshqalar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-12">
+        <div class="w-[900px] mx-auto">
+            <div class="text-center">
+                <p class="font-black text-[36px]">Ishni boshlash uchun oddiy qadamlar</p>
+                <p class="font-normal text-base w-[650px] mt-4 mx-auto">Bizning platformamiz mahalliy xizmat ko'rsatuvchilarni topish va yollashni osonlashtiradi. Ishni boshlash uchun ushbu qadamlarni bajaring.</p>
+            </div>
+            <div class="grid grid-cols-3 gap-3 mt-10">
+                <div class="p-4 rounded-xl border border-[#dbe3e5] mb-48">
+                    <img src="./img/search.svg" alt="search" class="w-[24px] h-[24px] mx-auto">
+                    <p class="text-base font-bold mt-3">Xizmatlarni qidiring</p>
+                    <p class="text-sm font-normal mt-1 text-[#638087]">Qidiruv yoki toifalarimizni ko'rib chiqish orqali ehtiyojlaringiz uchun to'g'ri xizmat ko'rsatuvchini toping.</p>
+                </div>
+                <div class="p-4 rounded-xl border border-[#dbe3e5] mb-48">
+                    <img src="./img/message.svg" alt="habar" class="w-[24px] h-[24px] mx-auto">
+                    <p class="text-base font-bold mt-3">Mutaxassislar bilan bog'laning</p>
+                    <p class="text-sm font-normal mt-1 text-[#638087]">Talablaringizni muhokama qilish va narxlarni olish uchun to'g'ridan-to'g'ri mutaxassislar bilan bog'laning.</p>
+                </div>
+                <div class="p-4 rounded-xl border border-[#dbe3e5] mb-48">
+                    <img src="./img/true.svg" alt="true" class="w-[24px] h-[24px] mx-auto">
+                    <p class="text-base font-bold mt-3">Ishni bajaring</p>
+                    <p class="text-sm font-normal mt-1 text-[#638087] w-[220px] mx-auto">Mutaxassisni yollang va vazifangizni samarali va samarali bajaring.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 </body>
 </html>
